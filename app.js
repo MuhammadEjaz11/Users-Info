@@ -5,7 +5,8 @@ var data = fetch('https://dummyjson.com/users')
     .then(json => {
 console.log(json);
         for (let j = 0; j < json.users.length; j++) {
-            let profile = json.users[j].image;
+            let remove = "size=50x50";
+            let profile = json.users[j].image.replace(remove, "");
             let fname = json.users[j].firstName + " " + json.users[j].lastName ;
             let email = json.users[j].email;
             let age = json.users[j].gender;
