@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.main{
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    /* border: 1px solid black; */
+}
+.user{
+    border: 1px solid rgb(151, 151, 151);
+    width: 220px;
+    border-radius: 12px;
+    margin: 1em 1em;
+    background-color: rgb(178, 213, 243);
+    box-shadow: 1px 5px 20px rgb(151, 151, 151);
+}
+#profile{
+    position: relative;
+    bottom: 7.75em;
+    border-radius: 50%;
+    
+}
+.imag{
+    /* border: 1px solid black; */
+    height: 160px;
+    text-align: center;
+    
+    
+}
+.data{
+    text-align: center;
+    padding: 0.5em;
+}
+.data p{
+    padding: 0.2em;
+}
+#name{
+    padding: 1em;
+    font-weight: bold;
+    color: #ff6b35;
+    font-size: 2em;
+}
+#email{
+    color: rgb(78, 78, 78);
+    font-size: 1em;
+}
+#gender{
+    color: rgb(78, 78, 78);
+    font-size: 1.2em;
+}
+#pnumber{
+    color: rgb(78, 78, 78);
+    font-size: 1em;
+}
+#address{
+    color: rgb(78, 78, 78);
+    font-size: 0.9em;
+}
